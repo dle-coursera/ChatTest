@@ -1,0 +1,6 @@
+[submodule "zendesk_sdk_chat_ios"]
+	path = zendesk_sdk_chat_ios
+	url = https://github.com/zendesk/zendesk_sdk_chat_ios.git
+[submodule "zendesk_sdk_ios"]
+	path = zendesk_sdk_ios
+	url = https://github.com/zendesk/zendesk_sdk_ios.git

@@ -1,0 +1,29 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "545A8982B8793A078598D18FF8007486D077E2F9" : 0,
+    "BF608BA0F8E697630E291EA213821F71A8278753" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "2352D5D7-8199-4A09-B662-17F919CAE4F7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "545A8982B8793A078598D18FF8007486D077E2F9" : "ChatTest\/zendesk_sdk_chat_ios\/",
+    "BF608BA0F8E697630E291EA213821F71A8278753" : "zendesk_sdk_ios\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ChatTest",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ChatTest.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/zendesk\/zendesk_sdk_chat_ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "545A8982B8793A078598D18FF8007486D077E2F9"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/zendesk\/zendesk_sdk_ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BF608BA0F8E697630E291EA213821F71A8278753"
+    }
+  ]
+}

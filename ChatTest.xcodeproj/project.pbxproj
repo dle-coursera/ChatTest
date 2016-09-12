@@ -15,6 +15,14 @@
 		728AE1E21D8737A60079CC2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 728AE1E01D8737A60079CC2D /* LaunchScreen.storyboard */; };
 		728AE1ED1D8737A60079CC2D /* ChatTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728AE1EC1D8737A60079CC2D /* ChatTestTests.swift */; };
 		728AE1F81D8737A60079CC2D /* ChatTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728AE1F71D8737A60079CC2D /* ChatTestUITests.swift */; };
+		728AE2191D873E7A0079CC2D /* ZendeskProviderSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 728AE2151D873E7A0079CC2D /* ZendeskProviderSDK.framework */; };
+		728AE21A1D873E7B0079CC2D /* ZendeskSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 728AE2161D873E7A0079CC2D /* ZendeskSDK.bundle */; };
+		728AE21B1D873E7B0079CC2D /* ZendeskSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 728AE2171D873E7A0079CC2D /* ZendeskSDK.framework */; };
+		728AE21C1D873E7B0079CC2D /* ZendeskSDKStrings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 728AE2181D873E7A0079CC2D /* ZendeskSDKStrings.bundle */; };
+		728AE2211D873E990079CC2D /* ZDCChat.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 728AE21D1D873E990079CC2D /* ZDCChat.bundle */; };
+		728AE2221D873E990079CC2D /* ZDCChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 728AE21E1D873E990079CC2D /* ZDCChat.framework */; };
+		728AE2231D873E990079CC2D /* ZDCChatAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 728AE21F1D873E990079CC2D /* ZDCChatAPI.framework */; };
+		728AE2241D873E990079CC2D /* ZDCChatStrings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 728AE2201D873E990079CC2D /* ZDCChatStrings.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +57,14 @@
 		728AE1F31D8737A60079CC2D /* ChatTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		728AE1F71D8737A60079CC2D /* ChatTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTestUITests.swift; sourceTree = "<group>"; };
 		728AE1F91D8737A60079CC2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		728AE2151D873E7A0079CC2D /* ZendeskProviderSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ZendeskProviderSDK.framework; path = zendesk_sdk_ios/ZendeskProviderSDK.framework; sourceTree = SOURCE_ROOT; };
+		728AE2161D873E7A0079CC2D /* ZendeskSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ZendeskSDK.bundle; path = zendesk_sdk_ios/ZendeskSDK.bundle; sourceTree = SOURCE_ROOT; };
+		728AE2171D873E7A0079CC2D /* ZendeskSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ZendeskSDK.framework; path = zendesk_sdk_ios/ZendeskSDK.framework; sourceTree = SOURCE_ROOT; };
+		728AE2181D873E7A0079CC2D /* ZendeskSDKStrings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ZendeskSDKStrings.bundle; path = zendesk_sdk_ios/ZendeskSDKStrings.bundle; sourceTree = SOURCE_ROOT; };
+		728AE21D1D873E990079CC2D /* ZDCChat.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ZDCChat.bundle; path = zendesk_sdk_chat_ios/ZDCChat.bundle; sourceTree = SOURCE_ROOT; };
+		728AE21E1D873E990079CC2D /* ZDCChat.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ZDCChat.framework; path = zendesk_sdk_chat_ios/ZDCChat.framework; sourceTree = SOURCE_ROOT; };
+		728AE21F1D873E990079CC2D /* ZDCChatAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ZDCChatAPI.framework; path = zendesk_sdk_chat_ios/ZDCChatAPI.framework; sourceTree = SOURCE_ROOT; };
+		728AE2201D873E990079CC2D /* ZDCChatStrings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ZDCChatStrings.bundle; path = zendesk_sdk_chat_ios/ZDCChatStrings.bundle; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				728AE21B1D873E7B0079CC2D /* ZendeskSDK.framework in Frameworks */,
+				728AE2221D873E990079CC2D /* ZDCChat.framework in Frameworks */,
+				728AE2191D873E7A0079CC2D /* ZendeskProviderSDK.framework in Frameworks */,
+				728AE2231D873E990079CC2D /* ZDCChatAPI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,6 +125,14 @@
 				728AE1DB1D8737A60079CC2D /* Main.storyboard */,
 				728AE1DE1D8737A60079CC2D /* Assets.xcassets */,
 				728AE1E01D8737A60079CC2D /* LaunchScreen.storyboard */,
+				728AE21D1D873E990079CC2D /* ZDCChat.bundle */,
+				728AE21E1D873E990079CC2D /* ZDCChat.framework */,
+				728AE21F1D873E990079CC2D /* ZDCChatAPI.framework */,
+				728AE2201D873E990079CC2D /* ZDCChatStrings.bundle */,
+				728AE2151D873E7A0079CC2D /* ZendeskProviderSDK.framework */,
+				728AE2161D873E7A0079CC2D /* ZendeskSDK.bundle */,
+				728AE2171D873E7A0079CC2D /* ZendeskSDK.framework */,
+				728AE2181D873E7A0079CC2D /* ZendeskSDKStrings.bundle */,
 				728AE1E31D8737A60079CC2D /* Info.plist */,
 			);
 			path = ChatTest;
@@ -233,8 +261,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				728AE1E21D8737A60079CC2D /* LaunchScreen.storyboard in Resources */,
+				728AE2211D873E990079CC2D /* ZDCChat.bundle in Resources */,
+				728AE2241D873E990079CC2D /* ZDCChatStrings.bundle in Resources */,
 				728AE1DF1D8737A60079CC2D /* Assets.xcassets in Resources */,
 				728AE1DD1D8737A60079CC2D /* Main.storyboard in Resources */,
+				728AE21A1D873E7B0079CC2D /* ZendeskSDK.bundle in Resources */,
+				728AE21C1D873E7B0079CC2D /* ZendeskSDKStrings.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,7 +437,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/zendesk_sdk_chat_ios",
+					"$(PROJECT_DIR)/zendesk_sdk_ios",
+				);
 				INFOPLIST_FILE = ChatTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.coursera.modules.ChatTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -416,7 +454,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/zendesk_sdk_chat_ios",
+					"$(PROJECT_DIR)/zendesk_sdk_ios",
+				);
 				INFOPLIST_FILE = ChatTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.coursera.modules.ChatTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
